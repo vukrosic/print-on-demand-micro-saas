@@ -91,7 +91,7 @@ const SingleImageGenerator = () => {
               <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
                 <h2 className="text-3xl font-extrabold text-gray-900">Image Generator</h2>
                 <form onSubmit={handleSubmit} className="mt-8 space-y-6">
-                  <div className="rounded-md shadow-sm -space-y-px space-y-4">
+                  <div className="rounded-md shadow-sm">
                     <div className="mb-4">
                       <label htmlFor="apiKey" className="block text-sm font-medium text-gray-700">API Key</label>
                       <input
